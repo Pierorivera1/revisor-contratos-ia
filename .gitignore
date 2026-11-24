@@ -1,0 +1,29 @@
+# Credenciales y secretos
+.env
+.env.*
+*.pem
+.aws/
+credentials
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Claude Code local
+.claude/settings.local.json
+
+# Sistema
+.DS_Store
+
+# Análisis y transcripciones locales: pueden contener contratos reales, no se suben.
+# Solo van los de los contratos ficticios de ejemplo.
+resultados/*
+!resultados/evaluacion.json
+!resultados/064ec742f360b1c5.json
+!resultados/07e8a0c400fc6e28.json
+!resultados/407c2307f97ebcf0.json
+
+# Secretos de Streamlit
+.streamlit/secrets.toml

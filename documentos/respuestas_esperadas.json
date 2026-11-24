@@ -1,0 +1,101 @@
+{
+  "_descripcion": "Hoja de respuestas para evaluar el revisor. Cada riesgo plantado indica la cláusula, la regla de la política que incumple y el color esperado. 'texto_clave' es un fragmento literal del contrato que la alerta debería citar.",
+  "politica": "politicas_contratacion_banco_andino.pdf",
+  "contratos": {
+    "contrato_01_soporte_ti_soluciones_inca.pdf": {
+      "tipo": "limpio",
+      "nota": "Cumple todas las reglas. Sirve para medir falsas alarmas: debería salir todo en verde.",
+      "riesgos": []
+    },
+    "contrato_02_limpieza_servicios_huallaga.pdf": {
+      "tipo": "con_riesgos",
+      "riesgos": [
+        {
+          "id": "R1",
+          "clausula": "QUINTA (5.2)",
+          "regla": "4.1 Plazo de pago",
+          "color": "rojo",
+          "descripcion": "Pago a 120 días; la política permite un máximo de 60.",
+          "texto_clave": "ciento veinte (120) días calendario"
+        },
+        {
+          "id": "R2",
+          "clausula": "DÉCIMA (10.2)",
+          "regla": "4.2 Penalidades a cargo del Banco",
+          "color": "rojo",
+          "descripcion": "Penalidad del 30 % del contrato si el Banco resuelve o no renueva; el tope es 10 %. También choca con la regla 5.5 (terminación por conveniencia sin penalidad).",
+          "texto_clave": "treinta por ciento (30 %) del monto total del contrato"
+        },
+        {
+          "id": "R3",
+          "clausula": "TERCERA (3.2)",
+          "regla": "4.3 Renovación",
+          "color": "rojo",
+          "descripcion": "Renovación automática por 24 meses; para no renovar se exige aviso de 180 días y, si no, se paga penalidad. La política exige poder no renovar con 30 días de aviso y sin penalidad.",
+          "texto_clave": "se renovará automáticamente por períodos sucesivos de veinticuatro (24) meses"
+        },
+        {
+          "id": "R4",
+          "clausula": "SEXTA (6.1–6.2)",
+          "regla": "5.1 Reajuste de precios",
+          "color": "amarillo",
+          "descripcion": "Reajuste cada 6 meses de hasta 12 %, decidido por el contratista y automático; la política permite uno al año, según IPC, con tope de 5 %.",
+          "texto_clave": "cada seis (6) meses"
+        },
+        {
+          "id": "R5",
+          "clausula": "OCTAVA",
+          "regla": "5.2 Subcontratación",
+          "color": "amarillo",
+          "descripcion": "Subcontratación libre con solo comunicación posterior y sin responsabilidad del contratista por sus subcontratistas.",
+          "texto_clave": "subcontratar libremente"
+        }
+      ]
+    },
+    "contrato_03_contact_center_dataplus.pdf": {
+      "tipo": "con_riesgos",
+      "riesgos": [
+        {
+          "id": "R6",
+          "clausula": "SÉTIMA (7.1–7.3)",
+          "regla": "4.6 Protección de datos personales (Ley 29733)",
+          "color": "rojo",
+          "descripcion": "Datos de clientes almacenados en Miami y Bogotá (flujo transfronterizo sin autorización ni garantías), compartidos con empresas del grupo para fines propios, sin plazo de 24 horas para notificar incidentes y sin cláusula de encargo de tratamiento ni de devolución de datos.",
+          "texto_clave": "Miami, Estados Unidos de América, y Bogotá, Colombia"
+        },
+        {
+          "id": "R7",
+          "clausula": "DECIMOCUARTA",
+          "regla": "4.5 Ley aplicable y solución de controversias",
+          "color": "rojo",
+          "descripcion": "Ley del Estado de Florida y arbitraje CCI en Miami, en inglés; la política exige ley peruana y arbitraje en Lima.",
+          "texto_clave": "leyes del Estado de Florida, Estados Unidos de América"
+        },
+        {
+          "id": "R8",
+          "clausula": "DÉCIMA (10.1–10.2)",
+          "regla": "4.4 Limitación de responsabilidad",
+          "color": "rojo",
+          "descripcion": "Responsabilidad del Banco ilimitada mientras la del proveedor se limita a 1 mes de contraprestación, incluso por filtración de datos.",
+          "texto_clave": "sin límite de monto"
+        },
+        {
+          "id": "R9",
+          "clausula": "DECIMOTERCERA",
+          "regla": "5.3 Cesión de posición contractual",
+          "color": "amarillo",
+          "descripcion": "El proveedor puede ceder el contrato a empresas del grupo o a terceros con solo una comunicación, sin consentimiento del Banco.",
+          "texto_clave": "bastando para ello una comunicación escrita a EL BANCO"
+        },
+        {
+          "id": "R10",
+          "clausula": "UNDÉCIMA (11.2)",
+          "regla": "5.4 Confidencialidad",
+          "color": "amarillo",
+          "descripcion": "Confidencialidad solo por 1 año después del contrato; la política exige un mínimo de 5 años.",
+          "texto_clave": "un (1) año"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "datos": {
+    "resumen": "El contrato encarga la limpieza diaria y el mantenimiento menor de la sede principal y 42 agencias por 24 meses, con un monto original de S/ 3,000,000.00 más IGV. No debe firmarse sin corregir los incumplimientos de renovación, pago, penalidades y responsabilidad, salvo aprobación excepcional del Gerente General. Por superar S/ 1,000,000.00, también requiere la aprobación del Gerente General y de Asesoría Legal.",
+    "datos_contrato": {
+      "proveedor": "SERVICIOS INTEGRALES HUALLAGA S.A.C.",
+      "objeto": "Limpieza diaria y mantenimiento menor de la sede principal y 42 agencias.",
+      "monto_total": "S/ 3,000,000.00 más IGV, por el plazo original",
+      "plazo": "24 meses desde el 1 de mayo de 2026, con renovaciones automáticas de 24 meses"
+    },
+    "alertas": [
+      {
+        "color": "rojo",
+        "titulo": "Renovación exige aviso de 180 días",
+        "clausula": "TERCERA (3.2)",
+        "cita": "Para evitar la renovación, EL BANCO deberá comunicar su decisión de no renovar con una anticipación no menor de ciento ochenta (180) días calendario al vencimiento",
+        "regla": "4.3 Renovación",
+        "explicacion": "El Banco tendría que avisar seis meses antes y pagar una penalidad si avisa después. Debe poder no renovar avisando con 30 días de anticipación y sin ninguna penalidad.",
+        "redaccion_sugerida": "Al vencimiento, el contrato se renovará automáticamente por períodos sucesivos de veinticuatro (24) meses, salvo que EL BANCO comunique su decisión de no renovar con al menos treinta (30) días calendario de anticipación al vencimiento, sin penalidad, indemnización ni pago adicional alguno.",
+        "cita_verificada": true
+      },
+      {
+        "color": "rojo",
+        "titulo": "Pago a 120 días",
+        "clausula": "QUINTA (5.2)",
+        "cita": "EL BANCO pagará cada factura en un plazo de ciento veinte (120) días calendario contados desde su recepción",
+        "regla": "4.1 Plazo de pago",
+        "explicacion": "El plazo de 120 días duplica el máximo permitido de 60 días. Además, el cómputo debe considerar tanto la recepción de la factura como la conformidad del servicio.",
+        "redaccion_sugerida": "EL BANCO pagará cada factura en un plazo máximo de sesenta (60) días calendario contados desde la recepción de la factura y la conformidad del servicio, mediante abono en la cuenta corriente que EL CONTRATISTA indique por escrito.",
+        "cita_verificada": true
+      },
+      {
+        "color": "rojo",
+        "titulo": "Penalidad de 30 % por resolución",
+        "clausula": "DÉCIMA (10.2)",
+        "cita": "EL BANCO deberá pagar a EL CONTRATISTA, por concepto de penalidad e indemnización por lucro cesante, una suma equivalente al treinta por ciento (30 %) del monto total del contrato",
+        "regla": "4.2 Penalidades e indemnizaciones a cargo del Banco; 5.5 Terminación por conveniencia",
+        "explicacion": "Cobrar 30 % del monto total supera el tope conjunto de 10 % aplicable al Banco. Además, al resolver por conveniencia, el Banco debería pagar únicamente los servicios efectivamente prestados.",
+        "redaccion_sugerida": "EL BANCO podrá resolver sin causa con aviso escrito de treinta (30) días calendario, pagando solo los servicios efectivamente prestados. La no renovación no generará penalidad ni indemnización. En los demás casos, los pagos por penalidad, indemnización o resolución anticipada a cargo de EL BANCO no superarán, en conjunto, el diez por ciento (10 %) del monto total del contrato.",
+        "cita_verificada": true
+      },
+      {
+        "color": "rojo",
+        "titulo": "Responsabilidad limitada sin excepciones obligatorias",
+        "clausula": "UNDÉCIMA (11.1)",
+        "cita": "Cada una de LAS PARTES responderá frente a la otra por los daños directos que le cause por el incumplimiento de sus obligaciones, hasta un monto máximo equivalente al monto total del contrato.",
+        "regla": "4.4 Limitación de responsabilidad",
+        "explicacion": "El tope también protege al proveedor aunque actúe con dolo, culpa inexcusable o vulnere la confidencialidad. En esos casos, y ante incumplimientos sobre datos personales, su responsabilidad no puede estar limitada.",
+        "redaccion_sugerida": "La responsabilidad de EL BANCO frente a EL CONTRATISTA tendrá como tope el monto total del contrato. La responsabilidad de EL CONTRATISTA no tendrá límite en casos de dolo, culpa inexcusable, infracción de la confidencialidad o incumplimiento de las obligaciones sobre datos personales; en los demás casos, se mantendrá el tope contractual.",
+        "cita_verificada": true
+      },
+      {
+        "color": "amarillo",
+        "titulo": "Reajuste semestral, excesivo y unilateral",
+        "clausula": "SEXTA (6.1 y 6.2)",
+        "cita": "EL CONTRATISTA podrá reajustar el precio mensual del Servicio cada seis (6) meses, en un porcentaje de hasta doce por ciento (12 %) en cada oportunidad.",
+        "regla": "5.1 Reajuste de precios",
+        "explicacion": "Permite subidas de hasta 12 % cada seis meses, sin usar el IPC y por decisión del proveedor. La política recomienda un solo reajuste anual, basado en el IPC de Lima y con tope de 5 %.",
+        "redaccion_sugerida": "El precio mensual podrá reajustarse como máximo una vez al año, según la variación del Índice de Precios al Consumidor de Lima Metropolitana publicado por el INEI, con un tope de cinco por ciento (5 %) anual. Todo reajuste deberá acordarse por escrito mediante adenda.",
+        "cita_verificada": true
+      },
+      {
+        "color": "amarillo",
+        "titulo": "Subcontratación libre y sin responsabilidad",
+        "clausula": "OCTAVA",
+        "cita": "EL CONTRATISTA podrá subcontratar libremente, total o parcialmente, la ejecución del Servicio con terceros de su elección, bastando para ello una comunicación posterior a EL BANCO.",
+        "regla": "5.2 Subcontratación",
+        "explicacion": "El proveedor puede delegar todo el servicio sin permiso previo y además se libera de responder por sus subcontratistas. Esto reduce el control del Banco y lo deja sin un responsable directo.",
+        "redaccion_sugerida": "EL CONTRATISTA no podrá subcontratar total ni parcialmente el Servicio sin autorización previa y por escrito de EL BANCO. EL CONTRATISTA mantendrá plena responsabilidad frente a EL BANCO por los actos, omisiones y obligaciones de sus subcontratistas.",
+        "cita_verificada": true
+      },
+      {
+        "color": "amarillo",
+        "titulo": "Acceso a datos personales no aclarado",
+        "clausula": "DUODÉCIMA (12.1)",
+        "cita": "EL CONTRATISTA se obliga a mantener en reserva toda información de EL BANCO a la que su personal pueda tener acceso con ocasión del Servicio",
+        "regla": "4.6 Protección de datos personales; Ley N.° 29733",
+        "explicacion": "El contrato admite que el personal puede acceder a información del Banco, pero no aclara si incluye datos de clientes o colaboradores. Si existe ese acceso, falta el encargo de tratamiento y las garantías obligatorias.",
+        "redaccion_sugerida": "El personal de EL CONTRATISTA no accederá, almacenará ni tratará datos personales de clientes o colaboradores de EL BANCO. Si el Servicio llegara a requerirlo, LAS PARTES suscribirán previamente un anexo de encargo de tratamiento que cumpla la Ley N.° 29733, su Reglamento y la política del Banco, antes de cualquier acceso.",
+        "cita_verificada": true
+      }
+    ],
+    "conformes": [
+      "La responsabilidad del Banco tiene como tope el monto total.",
+      "Existe penalidad a favor del Banco por locales no atendidos.",
+      "La confidencialidad dura cinco años después de terminar el contrato.",
+      "La cesión requiere consentimiento previo y escrito del Banco.",
+      "Se prevén pólizas de responsabilidad civil y deshonestidad.",
+      "Rige la ley peruana y el arbitraje en Lima ante la CCL."
+    ]
+  },
+  "segundos": 85.9343569278717,
+  "tokens_entrada": 7,
+  "tokens_salida": 14339,
+  "modelo": "us.moonshotai.kimi-k3.1"
+}

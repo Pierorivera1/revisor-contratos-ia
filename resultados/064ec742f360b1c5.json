@@ -1,0 +1,125 @@
+{
+  "datos": {
+    "resumen": "El contrato encarga a DataPlus la atención telefónica, por chat y WhatsApp de clientes del Banco, con acceso a sus datos personales y financieros. No debe firmarse sin corregir las cláusulas sobre datos personales, responsabilidad, ley aplicable y arbitraje. Por superar S/ 1 millón, también requiere aprobación del Gerente General y de Asesoría Legal.",
+    "datos_contrato": {
+      "proveedor": "DATAPLUS GLOBAL SERVICES PERÚ S.A.C.",
+      "objeto": "Servicio de centro de contacto para atención telefónica, chat web y WhatsApp, reclamos, bloqueo de tarjetas y campañas de fidelización.",
+      "monto_total": "S/ 10,080,000.00 más IGV",
+      "plazo": "36 meses desde el 1 de junio de 2026"
+    },
+    "alertas": [
+      {
+        "color": "rojo",
+        "titulo": "Datos almacenados fuera del Perú",
+        "clausula": "SÉTIMA (7.1)",
+        "cita": "la información y las grabaciones de las llamadas serán almacenadas y procesadas en la plataforma tecnológica corporativa del grupo DataPlus, cuyos servidores se encuentran ubicados en Miami, Estados Unidos de América, y Bogotá, Colombia.",
+        "regla": "4.6 Protección de datos personales; Ley N.° 29733 y su Reglamento: flujo transfronterizo",
+        "explicacion": "Los datos de clientes se almacenarán en Estados Unidos y Colombia sin garantías de protección adecuadas o equivalentes. Esto incumple las condiciones del encargo y expone al Banco a sanciones y filtraciones.",
+        "redaccion_sugerida": "EL PROVEEDOR no transferirá, almacenará ni permitirá el acceso a datos personales fuera del Perú sin autorización previa y escrita de EL BANCO. Toda transferencia autorizada deberá acreditar un nivel de protección adecuado o garantías contractuales equivalentes, aplicables también a cada destinatario.",
+        "cita_verificada": true
+      },
+      {
+        "color": "rojo",
+        "titulo": "Uso y circulación indebidos de datos",
+        "clausula": "SÉTIMA (7.2)",
+        "cita": "EL PROVEEDOR podrá compartir la información con las demás empresas del grupo DataPlus para fines de soporte, análisis estadístico y mejora de sus servicios.",
+        "regla": "4.6 Protección de datos personales; Ley N.° 29733: finalidad y uso para otros fines",
+        "explicacion": "Se permite usar información de clientes para fines propios del proveedor y compartirla con su grupo, más allá del servicio contratado. El tratamiento debe limitarse al encargo y cualquier excepción debe cumplir las autorizaciones y garantías legales.",
+        "redaccion_sugerida": "EL PROVEEDOR tratará los datos únicamente como encargado, siguiendo las instrucciones de EL BANCO y para la finalidad del Servicio. No podrá usarlos para análisis propio, mejora de sus servicios ni compartirlos con empresas de su grupo o terceros, salvo autorización expresa y cumplimiento de los requisitos legales.",
+        "cita_verificada": true
+      },
+      {
+        "color": "rojo",
+        "titulo": "Aviso de incidentes sin plazo",
+        "clausula": "SÉTIMA (7.3)",
+        "cita": "En caso de pérdida, robo o acceso no autorizado a la información, EL PROVEEDOR informará a EL BANCO en cuanto le sea razonablemente posible.",
+        "regla": "4.6 Protección de datos personales; Ley N.° 29733 y su Reglamento: incidentes de seguridad",
+        "explicacion": "El plazo es indefinido y podría retrasar la respuesta del Banco. El proveedor debe avisar dentro de 24 horas para que el Banco pueda cumplir sus propias obligaciones legales.",
+        "redaccion_sugerida": "EL PROVEEDOR notificará a EL BANCO cualquier incidente de seguridad que afecte datos personales dentro de las veinticuatro (24) horas de conocido, con detalles suficientes para evaluarlo y contenerlo, y colaborará con las notificaciones a la ANPD y a los titulares que correspondan.",
+        "cita_verificada": true
+      },
+      {
+        "color": "rojo",
+        "titulo": "Encargo de datos incompleto",
+        "clausula": "SÉTIMA (7.1)",
+        "cita": "EL PROVEEDOR utilizará la información de los clientes de EL BANCO para la prestación del Servicio.",
+        "regla": "4.6 Protección de datos personales; Ley N.° 29733 y su Reglamento: encargo de tratamiento",
+        "explicacion": "Faltan instrucciones documentadas, medidas de seguridad y la devolución o eliminación de los datos al terminar. Estas omisiones impiden controlar adecuadamente información sensible de los clientes.",
+        "redaccion_sugerida": "EL PROVEEDOR actuará como encargado del tratamiento y tratará los datos solo según las instrucciones documentadas de EL BANCO. Aplicará las medidas técnicas, organizativas y legales de seguridad detalladas en un anexo suscrito por las partes y, al terminar el contrato, devolverá o eliminará los datos y grabaciones, salvo conservación exigida por ley.",
+        "cita_verificada": true
+      },
+      {
+        "color": "rojo",
+        "titulo": "Responsabilidad ilimitada del Banco",
+        "clausula": "DÉCIMA (10.1)",
+        "cita": "EL BANCO será responsable frente a EL PROVEEDOR por todos los daños y perjuicios, directos e indirectos, incluyendo el lucro cesante, que le cause por el incumplimiento de cualquiera de sus obligaciones, sin límite de monto.",
+        "regla": "4.4 Limitación de responsabilidad; 4.2 Penalidades e indemnizaciones a cargo del Banco",
+        "explicacion": "El Banco asume una obligación económica potencialmente ilimitada, incluso por daños indirectos y lucro cesante. Además, su responsabilidad queda sin tope mientras la del proveedor sí está limitada.",
+        "redaccion_sugerida": "Las penalidades, indemnizaciones y pagos por resolución anticipada a cargo de EL BANCO no superarán, en conjunto, el diez por ciento (10 %) del monto total del contrato. En todo caso, la responsabilidad total de EL BANCO frente a EL PROVEEDOR no excederá el monto total del contrato.",
+        "cita_verificada": true
+      },
+      {
+        "color": "rojo",
+        "titulo": "Responsabilidad del proveedor indebidamente limitada",
+        "clausula": "DÉCIMA (10.2)",
+        "cita": "La responsabilidad total de EL PROVEEDOR frente a EL BANCO, por cualquier concepto, incluyendo los daños derivados de la pérdida o filtración de información de los clientes, no excederá el monto equivalente a un (1) mes de contraprestación.",
+        "regla": "4.4 Limitación de responsabilidad",
+        "explicacion": "El proveedor solo respondería hasta por un mes de pago, incluso si filtra datos de clientes. La política prohíbe limitar su responsabilidad por datos personales o confidencialidad.",
+        "redaccion_sugerida": "La responsabilidad de EL PROVEEDOR no estará limitada en casos de dolo, culpa inexcusable, infracción de la confidencialidad o incumplimiento de obligaciones sobre datos personales. Para los demás supuestos, su responsabilidad total tendrá como tope el monto total del contrato, sin perjuicio de las penalidades e indemnizaciones aplicables.",
+        "cita_verificada": true
+      },
+      {
+        "color": "rojo",
+        "titulo": "Ley extranjera aplicable",
+        "clausula": "DECIMOCUARTA (14.1)",
+        "cita": "El presente contrato se rige por las leyes del Estado de Florida, Estados Unidos de América.",
+        "regla": "4.5 Ley aplicable y solución de controversias",
+        "explicacion": "El contrato se somete a leyes de Florida, cuando la política exige que todos estos contratos se rijan por la ley peruana.",
+        "redaccion_sugerida": "El presente contrato se rige por las leyes de la República del Perú.",
+        "cita_verificada": true
+      },
+      {
+        "color": "rojo",
+        "titulo": "Arbitraje extranjero en Miami",
+        "clausula": "DECIMOCUARTA (14.2)",
+        "cita": "Toda controversia derivada del presente contrato será resuelta de manera definitiva mediante arbitraje administrado por la Cámara de Comercio Internacional (CCI), conforme a su reglamento. La sede del arbitraje será la ciudad de Miami, Florida, y el idioma, el inglés.",
+        "regla": "4.5 Ley aplicable y solución de controversias",
+        "explicacion": "El arbitraje tendría sede extranjera, administrador internacional e idioma inglés. La política exige arbitraje de derecho en Lima ante la Cámara de Comercio de Lima o juzgados de Lima.",
+        "redaccion_sugerida": "Toda controversia derivada del contrato será resuelta mediante arbitraje de derecho en Lima, administrado por el Centro de Arbitraje de la Cámara de Comercio de Lima, conforme a su reglamento. El idioma del arbitraje será el español.",
+        "cita_verificada": true
+      },
+      {
+        "color": "amarillo",
+        "titulo": "Confidencialidad posterior insuficiente",
+        "clausula": "UNDÉCIMA (11.2)",
+        "cita": "Esta obligación se mantendrá vigente durante el plazo del contrato y por un período de un (1) año posterior a su terminación.",
+        "regla": "5.4 Confidencialidad",
+        "explicacion": "La reserva solo dura un año después de terminar el contrato. La política recomienda un mínimo de cinco años para proteger la información del Banco.",
+        "redaccion_sugerida": "Esta obligación se mantendrá vigente durante el plazo del contrato y por un período mínimo de cinco (5) años posterior a su terminación, sin perjuicio de las obligaciones de protección de datos personales que subsistan conforme a ley.",
+        "cita_verificada": true
+      },
+      {
+        "color": "amarillo",
+        "titulo": "Cesión sin consentimiento del Banco",
+        "clausula": "DECIMOTERCERA",
+        "cita": "EL PROVEEDOR podrá ceder su posición contractual, total o parcialmente, a cualquier empresa del grupo DataPlus o a un tercero que adquiera su negocio, bastando para ello una comunicación escrita a EL BANCO con quince (15) días calendario de anticipación.",
+        "regla": "5.3 Cesión de posición contractual",
+        "explicacion": "El proveedor puede ceder el contrato con solo avisar, incluso a un tercero. El Banco perdería la posibilidad de evaluar y aprobar previamente al nuevo contratante.",
+        "redaccion_sugerida": "EL PROVEEDOR no podrá ceder total ni parcialmente su posición contractual, ni los derechos u obligaciones derivados del contrato, sin el consentimiento previo y por escrito de EL BANCO. Toda cesión autorizada deberá constar por escrito.",
+        "cita_verificada": true
+      }
+    ],
+    "conformes": [
+      "El pago en 45 días calendario cumple el máximo de 60.",
+      "El reajuste anual usa el IPC de Lima y tiene tope de 5 %.",
+      "La renovación requiere acuerdo expreso y escrito.",
+      "Hay penalidades a favor del Banco por incumplir indicadores.",
+      "La resolución por conveniencia exige 30 días y solo paga servicios prestados.",
+      "La subcontratación exige autorización escrita y los entregables son propiedad del Banco."
+    ]
+  },
+  "segundos": 414.7709217071533,
+  "tokens_entrada": 7085,
+  "tokens_salida": 15092,
+  "modelo": "us.moonshotai.kimi-k3.1"
+}

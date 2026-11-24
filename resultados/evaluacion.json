@@ -1,0 +1,177 @@
+{
+ "total": {
+  "riesgos": 10,
+  "detectados": 10,
+  "color_ok": 10,
+  "alertas": 21,
+  "falsas_alarmas": 6,
+  "citas_ok": 21
+ },
+ "contratos": {
+  "contrato_01_soporte_ti_soluciones_inca.pdf": {
+   "riesgos": 0,
+   "detectados": 0,
+   "color_ok": 0,
+   "alertas": 4,
+   "falsas_alarmas": 4,
+   "citas_ok": 4,
+   "detalle": [],
+   "falsas": [
+    {
+     "color": "rojo",
+     "clausula": "DÉCIMA (10.2)",
+     "titulo": "Tope de responsabilidad del Banco se pierde"
+    },
+    {
+     "color": "rojo",
+     "clausula": "DUODÉCIMA (12.2, iii)",
+     "titulo": "Transferencias internacionales sin garantías suficientes"
+    },
+    {
+     "color": "rojo",
+     "clausula": "DUODÉCIMA (12.2, v)",
+     "titulo": "Falta destino final de los datos"
+    },
+    {
+     "color": "rojo",
+     "clausula": "DUODÉCIMA (12.1 y 12.2)",
+     "titulo": "No se precisan los datos tratados"
+    }
+   ]
+  },
+  "contrato_02_limpieza_servicios_huallaga.pdf": {
+   "riesgos": 5,
+   "detectados": 5,
+   "color_ok": 5,
+   "alertas": 7,
+   "falsas_alarmas": 2,
+   "citas_ok": 7,
+   "detalle": [
+    {
+     "id": "R1",
+     "clausula": "QUINTA (5.2)",
+     "esperado": "rojo",
+     "detectado": true,
+     "color_ok": true,
+     "colores": [
+      "rojo"
+     ]
+    },
+    {
+     "id": "R2",
+     "clausula": "DÉCIMA (10.2)",
+     "esperado": "rojo",
+     "detectado": true,
+     "color_ok": true,
+     "colores": [
+      "rojo"
+     ]
+    },
+    {
+     "id": "R3",
+     "clausula": "TERCERA (3.2)",
+     "esperado": "rojo",
+     "detectado": true,
+     "color_ok": true,
+     "colores": [
+      "rojo"
+     ]
+    },
+    {
+     "id": "R4",
+     "clausula": "SEXTA (6.1–6.2)",
+     "esperado": "amarillo",
+     "detectado": true,
+     "color_ok": true,
+     "colores": [
+      "amarillo"
+     ]
+    },
+    {
+     "id": "R5",
+     "clausula": "OCTAVA",
+     "esperado": "amarillo",
+     "detectado": true,
+     "color_ok": true,
+     "colores": [
+      "amarillo"
+     ]
+    }
+   ],
+   "falsas": [
+    {
+     "color": "rojo",
+     "clausula": "UNDÉCIMA (11.1)",
+     "titulo": "Responsabilidad limitada sin excepciones obligatorias"
+    },
+    {
+     "color": "amarillo",
+     "clausula": "DUODÉCIMA (12.1)",
+     "titulo": "Acceso a datos personales no aclarado"
+    }
+   ]
+  },
+  "contrato_03_contact_center_dataplus.pdf": {
+   "riesgos": 5,
+   "detectados": 5,
+   "color_ok": 5,
+   "alertas": 10,
+   "falsas_alarmas": 0,
+   "citas_ok": 10,
+   "detalle": [
+    {
+     "id": "R6",
+     "clausula": "SÉTIMA (7.1–7.3)",
+     "esperado": "rojo",
+     "detectado": true,
+     "color_ok": true,
+     "colores": [
+      "rojo"
+     ]
+    },
+    {
+     "id": "R7",
+     "clausula": "DECIMOCUARTA",
+     "esperado": "rojo",
+     "detectado": true,
+     "color_ok": true,
+     "colores": [
+      "rojo"
+     ]
+    },
+    {
+     "id": "R8",
+     "clausula": "DÉCIMA (10.1–10.2)",
+     "esperado": "rojo",
+     "detectado": true,
+     "color_ok": true,
+     "colores": [
+      "rojo"
+     ]
+    },
+    {
+     "id": "R9",
+     "clausula": "DECIMOTERCERA",
+     "esperado": "amarillo",
+     "detectado": true,
+     "color_ok": true,
+     "colores": [
+      "amarillo"
+     ]
+    },
+    {
+     "id": "R10",
+     "clausula": "UNDÉCIMA (11.2)",
+     "esperado": "amarillo",
+     "detectado": true,
+     "color_ok": true,
+     "colores": [
+      "amarillo"
+     ]
+    }
+   ],
+   "falsas": []
+  }
+ },
+ "consistencia": {}
+}

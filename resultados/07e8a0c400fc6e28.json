@@ -1,0 +1,65 @@
+{
+  "datos": {
+    "resumen": "El contrato encarga a Soluciones Digitales INCA S.A.C. el soporte técnico de equipos del Banco por doce meses, con posible acceso a datos personales. No debe firmarse por ahora: hay que corregir el límite de responsabilidad del Banco y completar el encargo de tratamiento de datos. Por su monto, también requiere aprobación del Gerente de División y de Asesoría Legal.",
+    "datos_contrato": {
+      "proveedor": "SOLUCIONES DIGITALES INCA S.A.C.",
+      "objeto": "Soporte técnico informático de primer y segundo nivel para aproximadamente 1,800 computadoras, 320 impresoras y sus periféricos.",
+      "monto_total": "S/ 360,000.00 más IGV",
+      "plazo": "Doce meses desde el 1 de abril de 2026"
+    },
+    "alertas": [
+      {
+        "color": "rojo",
+        "titulo": "Tope de responsabilidad del Banco se pierde",
+        "clausula": "DÉCIMA (10.2)",
+        "cita": "La limitación anterior no será aplicable a los daños causados por dolo o culpa inexcusable, ni a los derivados del incumplimiento de las obligaciones de confidencialidad o de protección de datos personales.",
+        "regla": "4.4 Limitación de responsabilidad",
+        "explicacion": "La excepción se aplica a ambas partes, por lo que también deja al Banco sin tope de responsabilidad en ciertos casos. La política exige que el Banco responda como máximo hasta el monto total del contrato.",
+        "redaccion_sugerida": "La responsabilidad de EL BANCO frente a EL PROVEEDOR tendrá como tope el monto total del contrato. La limitación de responsabilidad de EL PROVEEDOR no será aplicable a los daños causados por dolo o culpa inexcusable, ni a los derivados del incumplimiento de las obligaciones de confidencialidad o de protección de datos personales.",
+        "cita_verificada": true
+      },
+      {
+        "color": "rojo",
+        "titulo": "Transferencias internacionales sin garantías suficientes",
+        "clausula": "DUODÉCIMA (12.2, iii)",
+        "cita": "no transferir los datos fuera del territorio peruano ni encargar su tratamiento a terceros sin autorización previa y por escrito de EL BANCO",
+        "regla": "4.6 Protección de datos personales y Ley N.° 29733: flujo transfronterizo",
+        "explicacion": "La autorización escrita del Banco no basta para enviar o almacenar datos en el extranjero. También deben exigirse garantías de protección adecuadas; de lo contrario, el Banco podría incumplir la ley y ser sancionado.",
+        "redaccion_sugerida": "EL PROVEEDOR no transferirá ni almacenará datos personales fuera del Perú, ni subcontratará su tratamiento, sin autorización previa y por escrito de EL BANCO. Toda transferencia internacional exigirá un nivel de protección adecuado o garantías contractuales equivalentes, documentadas y verificables por EL BANCO, conforme a la Ley N.° 29733 y su Reglamento.",
+        "cita_verificada": true
+      },
+      {
+        "color": "rojo",
+        "titulo": "Falta destino final de los datos",
+        "clausula": "DUODÉCIMA (12.2, v)",
+        "cita": "no conservar copias de datos personales al término del contrato",
+        "regla": "4.6 Protección de datos personales",
+        "explicacion": "La frase solo impide conservar copias; no ordena devolver o eliminar todos los datos ni verificar ese cumplimiento. Al terminar el servicio quedaría sin definir claramente el destino de la información.",
+        "redaccion_sugerida": "Al término del contrato, EL PROVEEDOR devolverá o eliminará de forma segura, según las instrucciones escritas de EL BANCO, todos los datos personales tratados por cuenta de EL BANCO, incluidas las copias y respaldos que obren en su poder, y certificará por escrito su cumplimiento, sin conservar copia alguna.",
+        "cita_verificada": true
+      },
+      {
+        "color": "rojo",
+        "titulo": "No se precisan los datos tratados",
+        "clausula": "DUODÉCIMA (12.1 y 12.2)",
+        "cita": "podría acceder de manera incidental a datos personales contenidos en los equipos de EL BANCO",
+        "regla": "Ley N.° 29733 y D.S. N.° 016-2024-JUS: encargo de tratamiento",
+        "explicacion": "La cláusula no indica qué tipos de datos ni de qué titulares se tratarán. Esa precisión es necesaria para delimitar el encargo y evitar accesos a más información de la necesaria.",
+        "redaccion_sugerida": "El encargo comprende únicamente los datos personales necesarios para el Servicio. Antes de iniciar el tratamiento, LAS PARTES identificarán por escrito los tipos de datos, las categorías de titulares y las instrucciones aplicables. EL PROVEEDOR no podrá tratar datos adicionales ni utilizarlos para fines propios.",
+        "cita_verificada": true
+      }
+    ],
+    "conformes": [
+      "El pago a 30 días y el reajuste con tope de 5 % cumplen la política.",
+      "La renovación expresa y las penalidades a favor del Banco son conformes.",
+      "La confidencialidad se mantiene cinco años después de la terminación.",
+      "Subcontratación, cesión, seguros, terminación por conveniencia y propiedad intelectual son conformes.",
+      "La ley peruana y el arbitraje en Lima ante la Cámara de Comercio de Lima son conformes.",
+      "El encargo prevé instrucciones, medidas de seguridad y aviso de incidentes en 24 horas."
+    ]
+  },
+  "segundos": 64.76652026176453,
+  "tokens_entrada": 7815,
+  "tokens_salida": 13347,
+  "modelo": "us.moonshotai.kimi-k3.1"
+}

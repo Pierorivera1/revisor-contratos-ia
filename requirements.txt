@@ -1,0 +1,8 @@
+awscrt==0.38.0
+boto3==1.44.9
+botocore==1.44.9
+Markdown==3.11.3
+pillow==13.0.0
+pypdf==7.1.1
+pypdfium2==5.15.2
+streamlit==1.67.0
